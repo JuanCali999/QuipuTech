@@ -1,0 +1,49 @@
+*::after
+*::before
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0 auto;
+    max-width: 1200px;
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+}
+
+img{
+    max-width: 100%;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0 40px 0;
+}
+
+.container-items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.item{
+    border-radius: 10px;
+}
+.item:hover{
+    text-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
+}
+.info-item{
+    width: 300;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+.item figure{
+    overflow: hidden;
+}
+.item:hover img{
+    transform: scale(1.2);
+}
+
+
+

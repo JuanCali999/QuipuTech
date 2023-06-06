@@ -1,0 +1,69 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    padding: 0%;
+    margin: 0%;
+    height: 150vh;
+}
+.encabezado{
+    margin: 0;
+    height: 70vh;
+    background-image: url('./img/quipu.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.parrafo{
+    text-align: justify;
+}
+.parrafo a{
+    float:left;
+    text-decoration: none;
+}
+.title{
+    margin: 0;
+    text-align: center;
+    line-height: 70vh;
+    font-size: 3rem;
+    color:#fff;
+}
+
+.nav{
+    background-color: #000;
+    height: 80px;
+    display: flex;
+    align-content: center;
+    gap:2rem;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+.link{
+    color:#fff;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+
+footer {
+    background-color: #3764a8;
+    padding: 3rem;
+    color: white;
+}
+footer section{
+    float:right;
+}
+footer p{
+    margin:0;
+}
+footer a{
+    transition: color 0.3s ease;
+    color:white;
+    text-decoration: none;
+}
+footer a:hover{
+    color: cornflowerblue;
+}
