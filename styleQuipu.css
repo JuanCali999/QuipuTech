@@ -9,6 +9,7 @@ body{
 .encabezado{
     margin: 0;
     height: 70vh;
+    width: 100%;
     background-image: url('./img/quipu.jpg');
     background-size: cover;
     background-attachment: fixed;
@@ -47,6 +48,55 @@ body{
     font-size: 1.3rem;
 }
 
+section.banner{
+    background: linear-gradient(to left, rgb(219, 230, 252),rgb(234 243 240));
+    padding: 3rem 0;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    grid-gap: 2rem;
+}
+
+.col1{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgBanner{
+    width: 70%;
+}
+
+.col2{
+    padding: 1rem 3rem;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 2rem;
+    color: #D4AF37;
+}
+
+#txtBanner{
+    margin: 2rem 0;
+    font-size: 1.3rem;
+    line-height:2rem;
+    text-align: justify;
+}
+
+.btnBanner{
+    background: #D4AF37;
+    color:#fff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+}
 
 footer {
     background-color: #3764a8;
