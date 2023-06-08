@@ -2,6 +2,7 @@
 Repositorio para la paguina web QuipuTech - Grupo 6
 
 ## Team Members
+- Diego Anderson Gamboa Avendaño - u202120374
 
 - Daysy Xiomara Flores Astovilca - U20201B440
 
